@@ -1,0 +1,6 @@
+In this workshop i tried to use pseudo-code for the first time. Frankly speaking, this really helped me in order to sort out my steps, it was easier for me because it was hard to get confused as i wrote all the steps before writing the actual code.
+From now on , i know that pseudo-code is helpfull and i will use it for every other tasks.
+I mastered how to use 'for'( for(condition)->(if true) do something  and 'while'( while(statement) -> (true) do something) loops. 
+Also, i used 'if' to define the highest and lowest temperature and on what day it occured.
+
+Honestly, using pseudo-code helped me a lot to organize my steps on order to successfully complete the code. 
