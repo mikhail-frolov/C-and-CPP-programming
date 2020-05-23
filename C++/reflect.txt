@@ -1,0 +1,8 @@
+// Mikhail Frolov	
+// 164788184
+
+	In this final milestone and thorough the whole final project I learned what Object Oriented Programming is and how to use it in real life. I learned how to effectively use the memory and that I can allocate the needed memory only so I use just the exact amount memory that is needed, also that if I allocated some memory I need to deallocate it so the program does not have any possible memory leaks. 
+	
+	Also, the milestones were completed in particular order, which means for me that before the I start to write a program I should've an exact plan on how I am going to build it. Also, design of the code plays a big role not only for the consumer and the person that project is being presented to, but to the programmer himself because if the code is well organized he will be less likely to get lost or to make a mistake. 
+
+	In this final milestone I learned how to write and read from a file using ifstream. That was th difficulty in this milestone as I would get the message "Error in data file" but after detailed review I could find a solution. I also learned that it is better to implement function and design a code a certain way so the functions can be reusable.
