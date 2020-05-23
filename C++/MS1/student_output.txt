@@ -1,0 +1,142 @@
+Script started on Thu 12 Mar 2020 12:50:44 PM EDT
+==110464== Memcheck, a memory error detector
+==110464== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==110464== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==110464== Command: ms
+==110464== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+******************************************************************
+M1T1: constructors
+==================>
+******************************************************************
+M1T2: operator<< adding MenuItems
+==================>
+******************************************************************
+M1T3: Menu::run()
+==================>
+Do the following: 
+abc <ENTER>
+0 <ENTER>
+4 <ENTER>
+3 <ENTER>
+** Temp **
+1- One
+2- Two
+3- three
+> abc
+Invalid Integer, try again: 0
+Invalid selection, try again: 4
+Invalid selection, try again: 3
+3 selected!
+Press enter to continue...
+
+******************************************************************
+M1T4: Menu deep assignment with no items
+==================>
+******************************************************************
+M1T5: Reseting Menu title and running an empty menu with no Items
+==================>
+        ** New Title **
+No Items to display!
+0 returned by the Menu with no Items.
+Press enter to continue...
+
+******************************************************************
+M1T6: Menu::add() and operator<<
+==================>
+******************************************************************
+M1T7: Deep assignment
+==================>
+Do the following: 
+1 <ENTER>
+        ** Sub Menu **
+        1- The first
+        2- The second
+        3- The third
+        > 1
+1 selected!
+Press enter to continue...
+
+******************************************************************
+M1T7: Deep copying, passing const refrence and indentation display
+==================>
+Do the following:
+2 <ENTER>
+3 <ENTER>
+** Main Menu **
+1- Option one
+2- Option Two
+3- Sub Options
+4- Option four
+5- Exit
+> 2
+You selected 2.
+** Main Menu **
+1- Option one
+2- Option Two
+3- Sub Options
+4- Option four
+5- Exit
+> 3
+You selected 3.
+Do the following:
+2 <ENTER>
+    ** Sub Menu One **
+    1- Selection one
+    2- Sub Selections two
+    3- Selection three
+    4- Selection four
+    > 2
+You selected 2.
+Do the following:
+3 <ENTER>
+5 <ENTER>
+        ** Sub Menu **
+        1- The first
+        2- The second
+        3- The third
+        > 3
+You selected 3.
+** Main Menu **
+1- Option one
+2- Option Two
+3- Sub Options
+4- Option four
+5- Exit
+> 5
+******************************************************************
+M1T8: operator bool()
+==================>
+The mainMenu is valid and usable.
+******************************************************************
+M1T9: Invalid Menu and its usage
+==================>
+The mainMenu is invalid(empty) and not usable.
+Invalid Menu!
+Invalid Menu!
+******************************************************************
+M1T10: Assigning Menu to an empty Menu
+==================>
+Invalid Menu!
+Invalid Menu!
+******************************************************************
+M1T11: Adding invalid string to render Menu invalid
+==================>
+Invalid Menu!
+Invalid Menu!
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==110464== 
+==110464== HEAP SUMMARY:
+==110464==     in use at exit: 0 bytes in 0 blocks
+==110464==   total heap usage: 52 allocs, 52 frees, 1,214 bytes allocated
+==110464== 
+==110464== All heap blocks were freed -- no leaks are possible
+==110464== 
+==110464== For counts of detected and suppressed errors, rerun with: -v
+==110464== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 12 Mar 2020 12:51:12 PM EDT
