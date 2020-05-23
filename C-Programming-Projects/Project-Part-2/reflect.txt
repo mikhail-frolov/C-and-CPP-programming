@@ -1,0 +1,10 @@
+//Mikhail Frolov
+//IPC 144
+//164788184
+//Assignment 2 Milestone 4
+
+In this final milestone	I practiced everything I've learned thorough all the previous assignments. I practiced using some libraries as ctype.h and string.h it was very helpful to use functions from these libraries as they help to improve the code and make it easier. Also, throughout the whole assignment I learned how I should break my code down in smaller parts that can be used in a different parts of code. It will make my job easier and my code will look way better as I won't need to rewrite all the code all the time I can just use the specific function.
+
+1) The following functions findContactIndex and getTenDigitPhone benefit my code in a good way. These functions are used a lot of times and in different parts of code, so , in order not to repeat the same code a bunch of times we want to use these functions because they make the source code shorter and easier to read. They also include a validation check. Overall, it improves the maintenance and readability of the code.
+
+2)Yes, I definitely would like this assignment to include the functionality to load/save the contact information from/to a text data file because it would make the most sense as we want to keep the contact list and save it so we can view the data. Also it would be much better if we could access the text file with contacts and modify it and save it again as a new file etc.
