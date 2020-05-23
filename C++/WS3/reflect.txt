@@ -1,0 +1,11 @@
+// Mikhail Frolov
+// OOP244
+// 164788184
+
+1) By hiding all data members from client code (private) we have the ability to control which data to accept , reject or expose. If the data is invalid , we can reject it and sore the default values that identified as an empty state. It is used to ensure so that the object doesn’t hold unnecessary values while creation.
+
+2) In struct everything is public by default while in class everything is private by default. In order to access file in class we need to create a public member function which we do not need to do while using struct.
+
+3) Class is private by default. Any member function can access any private member of its class. Privacy operates at the class level , nor at the object level.
+
+4) In this workshop 03 , I used classes , access levels and member functions to create encapsulated objects.  I learnt that class is the private data by default and I mastered how to define it. Also, in order to access data within an object of a class type I used public member functions such as getWeight() or getDesc() or setWeight() and setDesc(). Also, I practiced usage of precision that basically cuts the number up to needed decimal points. I understood that it is better to create functions so we can reuse them and not to waste time on writing the same code again. The most difficult part for me was swapCargo because I couldn’t figure out how to get values for cargo , but after going through certain examples I could figure it outing find a solution. Also, I had some difficulties while building increaseCargo function as for some reason my code didn’t work properly so I had to change the order of if statements.
