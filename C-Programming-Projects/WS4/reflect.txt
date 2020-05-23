@@ -1,0 +1,8 @@
+//Mikhail Frolov
+//164788184
+//Workshop 4
+
+In this worksop i learnt how to store data using an array structure , also i used  iteration constructs (while , for , if , else if) to write certain condidtions and use the information from the array or input, take information from input, store it or put it equal to 0 ,if needed ,and output it accordingly to the conditions of the loop.
+Also, i used flagging to tell the iteration wheter it stops or continues (true/false).
+
+It is always better to start your coding process from a pseudocode , because it helps to organize every step and each section so you don't get stuck at some issue for a long time.                                                                                                                                                                                                                
