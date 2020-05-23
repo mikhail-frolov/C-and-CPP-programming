@@ -1,0 +1,7 @@
+// OOP244NJJ
+// Mikhail Frolov
+// 164788184  
+  In this workshop05 I learned and practiced operator overloading as a member of a class and as a helper of a class, how to maintain across multiple classes, how to dynamically allocate a memory within a class. 
+   I created two objects Engine and Ship. In class Engine the object holds private values the size and the type of engine , while Ship class holds the information about the Ships that could have multiple engines etc. in order to use the private members of each class, multiple member functions were created, also it is necessary to add an array of Engine objects in ship class so we could store and show the information about the engines for the certain ship. 
+   The dynamic memory allocation was used for the array of engines and the array that represents the type of the ship because it is better to allocate just enough memory for the array , so we do not use the unnecessary memory. Also, if objects receives any of the invalid values the object assumes a safe empty state so the incorrect values cannot be used and if this happens the appropriate message is displayed. If dynamic memory is used then deallocation should be done to in order to avoid the memory leak.
+   It was probably one of the hardest workshops so far for me, as I would get a lot of threads while allocating memory , but after reviewing my code and accurately walking through every function and especially the initialization and "if" conditions I was able to resolve the issues I had. 
