@@ -1,0 +1,7 @@
+// Worksop 04
+// Mikhail Frolov
+// 164788184
+
+In this workshop I practiced coding a class for simple object, defining a constructor that sets an object to an empty state also, how to overload a constructor to receive information from a client. To begin with, the whole workshop was not complicated ,nevertheless I faced some difficulties during my coding time. In my program i had a no-argument constructor that sets the object to an empty state by calling a member function setEmpty(); and a three-argument constructor that received the address of a c-style string and contained saiyan's name , birth date and power. It is important to always check if the user's input provided is valid or arguments are null pointers , we did that by creating and calling member function isValid(); that returns bool value. If validation fails the object should be set to an empty state to avoid possible issues like incorrect input or output. 
+
+The difficulty I faced was that I forgot to change the m_name to a pointer * as we got rid of the static memory allocation in DIY part and we used dynamic memory allocation to allocate just enough memory to set the name. Therefore I could use MAX_NAME (= 30) for size of the name   because we are using dynamic allocation. It is important to deallocate memory in destructor in order to avoid memory leak issues. 
