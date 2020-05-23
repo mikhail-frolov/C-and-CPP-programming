@@ -1,0 +1,3 @@
+After completing this workshop I learned how to sub-divide a program into modules , how to compile each module separately	using special command in Linux. Also, I learned that it is better to organize the source code into modules using header and implementation files and how to distinguish the contents of them. It makes a code looks better , more understandable and easier to read. 
+
+Although, this workshop was easy , I had some troubles doing it. I had to spend more time on setting everything up because I have a Mac and I used Xcode to do this workshop. I just had to look through the settings and options of the Xcode app to solve this problem. Nevertheless, it wasn't a big deal and I finished the workshop completely.  
