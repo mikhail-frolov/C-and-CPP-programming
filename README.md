@@ -1,4 +1,4 @@
-# CPA-Seneca :v:
+# Seneca College Projects :v:
 
 :computer:    C and C++ projects i worked on while studying in Seneca College.
 
